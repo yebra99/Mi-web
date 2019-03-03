@@ -215,3 +215,20 @@ th{
     background-color:  #E6E6FA;
     color: #0000CD
 }
+
+
+/* Estilos para el formulario*/
+
+
+legend{
+    background-color: #12203E;
+    color: white;
+    padding: 10px;
+    font-weight: bolder;
+}
+fieldset{
+    background-color: #E6E6FA;
+    border: solid 2px #12203E;
+    padding: 5px;
+    margin: 6px 4px;
+}

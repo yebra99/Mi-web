@@ -25,6 +25,84 @@ and open the template in the editor.
             </header>
             <main class="contenido2">
                 <h1>contenido</h1>
+                	<h1>Formulario de datos de alta dun usuario</h1>
+            <fieldset>
+                <legend>Datos persoais</legend>
+                <p>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" value="" id="nombre"/>
+                </p>
+                <br><br>
+                <p>
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" name="apellidos" value="" id="apellidos" size="50"/>
+
+                </p>
+                <br><br>
+                <p>
+                    <label for="arquivo">Suba unha foto recento do/a usuario/a 
+                    </label>
+                    <input type="file" name="adxunto" id="arquivo"/>
+                </p>
+                <br><br>
+                <p>
+                    <label for="provincia">provicias</label>
+                    <select id="provincia" name="provincia">
+                        <option value="" selected="selected">-selecciona-</option>
+                        <option value="Lugo">Lugo</option>
+                        <option value="A Coruña">A Coruña</option>
+                        <option value="Orense">Orense</option>
+                        <option value="Pontevedra">Pontevedra</option>
+                        <option value="Otro"> Otro</option>
+                    </select>
+                </p>
+                <br><br>
+                <p>
+                     <label for="estudios">Estudios realizados:</label>
+                     <select id="estudios" name="estudios[]" multiple="multiple">
+                         <option value="sin_estudios">Sin estudios</option>
+                         <option value="primarios" selected="selected">Primarios</option>
+                         <option value="secundaria">Secundaria</option>
+                         <option value="bac">Bac</option>
+                         <option value="tecnico">Técnico</option>
+                         <option value="tecnico_superior">Técnico superior</option>
+                         <option value="universitarios">Estudios universitarios</option>
+                     </select>
+
+                </p>
+                <br><br>
+                <p>
+                    <label for="Observacions">Observaciones:</label>
+                    <br/>
+                    <textarea id="Observacions" name="Observacions"
+                              cols="40" rows="5"></textarea>
+
+                </p>
+                <br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Datos de acceso</legend>
+                <p>
+                    <label for="nomeusu">Nome de usuario</label>
+                    <input type="text" name="nome" value="" id="nomeusu" maxlength="10"/>
+                </p>
+                <br><br>
+                <p>
+                    <label for= "contrasi"> Contrasinal</label>
+                    <input type="password" name="contrasi" value="" id="contrasi"/>
+                </p>
+                <br><br>
+                <p>
+                    <label for= "contrasi2"> Repite contrasinal</label>
+                    <input type="password" name="contrasi" value="" id="contrasi2"/>
+                </p>
+
+            </fieldset>
+            <p>
+                <input type="reset" name="limpar" value="Borrar datos do formulario"/>
+                <input type="submit" name="procurar" value="Crear conta"/>
+            </p>
+        
             </main>
             <footer class="footer">
                 <h3>Miguel Yebra</h3>
