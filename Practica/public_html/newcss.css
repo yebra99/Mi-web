@@ -25,12 +25,12 @@ header{
     color: white;
 }
 .nav a{
-   
+    text-decoration: none;
     color: white;
-    
+    cursor: pointer;
 }
 
-.conteedor{
+.contenedor{
     width: 90%;
     max-width: 1000px;
     margin: 20px auto;
@@ -81,3 +81,45 @@ header{
     color: #fff;
     grid-area: footer;
 }
+
+/* Estilos para el enlace3 y enlace4*/
+
+.contenedor2{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "header header header"
+                            "contenido contenido contenido"
+                            "contenido contenido contenido"
+                            "footer footer footer";
+}
+
+.contenedor2 > div,
+.contenedor2 .header,
+.contenedor2 .contenido2,
+.contenedor2 .footer {
+	background: #fff;
+	padding: 20px;
+	border-radius: 4px;
+}
+
+.contenedor2 .header {
+	background: #12203E;
+	color: #fff;
+	grid-area: header;
+}
+
+.contenedor2 .contenido2 {
+	grid-area: contenido;
+}
+
+.contenedor2 .footer {
+	background: #12203E;
+	color: #fff;
+	grid-area: footer;
+}
+
