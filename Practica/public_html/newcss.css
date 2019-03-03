@@ -21,6 +21,15 @@ body{
 header{
     text-align: center;
 }
+.nav{
+    color: white;
+}
+.nav a{
+   
+    color: white;
+    
+}
+
 .conteedor{
     width: 90%;
     max-width: 1000px;
