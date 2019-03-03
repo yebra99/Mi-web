@@ -32,5 +32,23 @@ header{
     grid-template-areas: "header header header"
                          "contenido contenido sidebar"
                          "contenido contenido sidebar"
-                         "footer footer footer"
+                         "footer footer footer";
+    
 }
+
+.contenedor > div,
+.contenedor .header,
+.contenedor .contenido,
+.contenedor .sidebar,
+.contenedor .footer{
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.contenedor .header{
+    background: #12203E;
+    color: #fff;
+    grid-area: header;
+}
+
