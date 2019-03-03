@@ -67,3 +67,8 @@ header{
     grid-area: sidebar;
     
 }
+.contenedor .footer{
+    background: #12203E;
+    color: #fff;
+    grid-area: footer;
+}
