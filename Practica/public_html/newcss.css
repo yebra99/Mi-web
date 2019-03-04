@@ -272,4 +272,8 @@ fieldset{
 
 
 
-
+.pseudo-elemento::after{
+    content:  "<-Nullam ut erat sit amet elit ultricies tempor vel eget magna.!";
+    font-family: capitular;
+    color: green;
+}
