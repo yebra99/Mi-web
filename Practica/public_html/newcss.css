@@ -126,6 +126,13 @@ header{
 	grid-area: contenido;
 }
 
+.contenido2{
+    border: 1px solid #000000;
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 9px;
+    padding: 10px;
+}
+
 .contenedor2 .footer {
 	background: #12203E;
 	color: #fff;
